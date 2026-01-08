@@ -1,13 +1,11 @@
 # Title : AI-Powered Solar Panel Maintenance & Defect Detection
 
-## Problem Statement:
-
 Build an AI-based system that detects defects, degradation, or maintenance risks in solar panels using 
 visual or sensor-derived data. The system must learn from data to identify faults such as cracks, 
 hotspots, soiling, or efficiency degradation and produce a final trained AI model exported in ONNX 
 format.
 
-Our solution implements an **end-to-end machine learning system** for monitoring and diagnosing solar panel systems using **sensor-based tabular data**.  
+This Project implements an **end-to-end machine learning system** for monitoring and diagnosing solar panel systems using **sensor-based tabular data**.  
 A **single ONNX model** performs **four predictive tasks simultaneously**, making it suitable for **real-time, cloud, and edge deployment**.
 
 ---
@@ -45,8 +43,7 @@ User-Friendly Diagnostic Output
 
 ---
 
-## ✅ Solution
-This project:
+## ✅ This project:
 - Uses **one multi-output ML pipeline**
 - Encapsulates preprocessing + model in **ONNX**
 - Enables **fast, language-agnostic inference**
@@ -86,12 +83,16 @@ Maintenance R²        : 0.9963
 ## Repository Structure
 -----------------------------
 ```
-├── final_model.onnx
-├── train.py
-├── preprocess.py
+├── Codes
+│ ├── Preprocess.ipynb
+│ └── Train.ipynb
+├── Datasets
+│ ├── Final_Solar_data.csv
+│ └── Solar_Panel_finaldata.csv
+├── solarvenv/
+├── .gitignore
 ├── README.md
-├── requirements.txt
-
+└── requirements.txt
 
 
 --- 
@@ -138,3 +139,46 @@ Maintenance R²        : 0.9963
 - CPU-only execution
 - Edge & cloud compatible
 - No Python dependencies at ingerence
+
+
+
+---
+
+📜 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+📬 Contact Me
+
+👤 Author: [Shivansh Gupta]
+📧 Email: [Shivansh Gupta](mailto:shivanshgupta2505@gmail.com)
+
+💼 LinkedIn: [LinkedIn](https://www.linkedin.com/in/shivansh-gupta-b3b75b210/)
+
+---
+
+💖 Support & Contributions
+
+If you find these projects helpful:
+⭐ Star this repo — it motivates me to keep learning and sharing!
+💬 Feedback & Suggestions are always welcome.
+
+“Every big journey starts with small steps — this is mine in Machine Learning.” 🌍
+
+---
+
+🏁 Future Plans
+
+📈 Add more beginner-to-intermediate ML projects
+
+🧠 Dive into Deep Learning (Neural Networks, CNNs, RNNs)
+
+🗂️ Organize content by topic (Regression, Classification, Clustering, etc.)
+
+🌐 Create a documentation website for easy learning navigation
+
+🖤 Thank you for visiting my ML Journey Repository!
+
+Keep Learning, Keep Building, and Keep Growing! 🚀
